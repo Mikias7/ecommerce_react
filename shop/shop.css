@@ -1,0 +1,19 @@
+.shopTitle{
+    position: relative;
+    text-align: center;
+    font-size: larger;
+  }
+  
+  .products {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 8px;
+      place-items: center; /* Centers the grid items both horizontally and vertically */
+    }
+  
+    .attributes{
+      position: relative;
+      top: -20px;
+      text-align: center;
+    };
+  
